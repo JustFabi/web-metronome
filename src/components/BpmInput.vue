@@ -66,7 +66,7 @@ watch(bpm, () => {
 <template>
   <div class="flex flex-col items-center gap-4">
     <h2 class="text-4xl">{{ bpm }} BPM</h2>
-    <input v-model="bpm" type="range" min="0" max="400" />
+    <input v-model="bpm" type="range" min="1" max="400" />
     <img
       class="w-12 h-12"
       @click="handlePlay()"
